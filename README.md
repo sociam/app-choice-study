@@ -2,9 +2,9 @@ This is the web application protoype used for testing users' perceptions on priv
 
 # To start
 
-`npm start'
+`npm start`
 
 then, on your browser, go to
 
-`http://localhost:3000'
+`http://localhost:3000`
 

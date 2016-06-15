@@ -1,0 +1,95 @@
+extends layout
+
+block content
+  h1= "Google Play Store"
+  p Welcome to Google Play Store
+
+  div.gb_store
+    img(src='https://www.gstatic.com/android/market_images/web/play_one_bar_logo_2x.png')
+
+  table
+    tr
+      td(width="120")
+        img(id='app1', src='https://lh3.ggpht.com/L8P5PaUtBD5OmaFRy-fRf07OKC4pAOuPSW_Gade1c64eGuDqGCoKsPah5f3SnM8Dn3XF=w300', width="100")
+        h1 Pedometer
+        div.document-subtitles
+          div.category  
+            span.name "Health & Fitness"
+        h1 4.3
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/grey.png' width="20")
+        p 379,973 total
+        p  Installs: 10,000,000 - 50,000,000
+        p  Updated: 7 September 2015
+      td(width="120")
+        img(id='app1', src='https://lh5.ggpht.com/uvfphNTJrNMeehlDX_zZXLeqhXPOdPuK2x5v0JuVHXAm9GfAOV0QHhPy34ChPiAMDr52=w300', width="100")
+        h1 Pedometer & Weight Loss Coach
+        div.document-subtitles
+          div.category  
+            span.name "Pacer Health"
+          div.category  
+            span.name "Health & Fitness"         
+        h1 4.4
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/grey.png' width="20")
+        p 379,973 total
+        p  Installs: 5,000,000 - 10,000,000
+        p  Updated: 9 April 2016
+    tr
+      td(valign='top')
+        h2 Privacy Sensitivity Score
+          img(src='/images/rate0.png')
+        p  The sum of the number of sensitive permissions associated with an app, that have the ability to access personl data and disclose them externally
+          ul
+            li Other
+              ul
+                li prevent device from sleeping
+                li full network access
+                li view network connections
+                li run at startup
+      td(valign='top')
+        h2 Privacy Sensitivity Score
+          img(src='/images/rate3.png')
+        p  The sum of the number of sensitive permissions associated with an app, that have the ability to access personl data and disclose them externally
+          ul
+            li Location
+              ul
+                li precise location (GPS and network-based)
+                  img(src='/images/one.png',position='bottom',height='20')
+            li Phone
+              ul
+                li read phone status and identity
+                  img(src='/images/one.png',position='bottom',height='20')
+            li Photos / Media / Files
+              ul
+                li modify or delete the contents of your USB storage
+                li read the contents of your USB storage
+            li Camera
+              ul
+                li take pictures and videos
+                  img(src='/images/one.png',position='bottom',height='20')
+            li Device ID & call information
+              ul
+                li read phone status and identity
+                  img(src='/images/one.png',position='bottom',height='20')
+            li Wi-Fi connection information
+              ul
+                li view Wi-Fi connections
+            li Other
+              ul
+                li receive data from Internet
+                li pair with Bluetooth devices
+                li access Bluetooth settings
+                li run at startup
+                li full network access
+                li view network connections
+                li read Google service configuration
+                li prevent device from sleeping
+
+

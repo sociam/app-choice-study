@@ -1,0 +1,78 @@
+extends layout
+
+block content
+  h1= "Google Play Store"
+  p Welcome to Google Play Store
+
+  div.gb_store
+    img(src='https://www.gstatic.com/android/market_images/web/play_one_bar_logo_2x.png')
+
+  table
+    tr
+      td(width="120")
+        img(id='app1', src='https://lh3.googleusercontent.com/SrULGsyndXJk6Gs4Lmv34sOlMDAroy1bzPPr9X1U5oVdv5TAAJX4JkYPO_wQAdP7TBA=w300', width="100")
+      td(width="400")
+        h1 Pinterest
+        div.document-subtitles
+          div.primary  
+            span.name "Pinterest.Inc. "
+          div.category  
+            span.name "Social"
+          h1 4.5
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/grey.png' width="20")
+        p 1,837,543 total
+        p  Installs: 100,000,000 - 500,000,000
+        p  Updated: 27 April 2016
+      td
+        h3 Permissions
+
+        ul
+          li Identity
+          ul
+            li find accounts on the device
+            li read your own contact card
+          li  Contacts
+          ul
+            li find accounts on the device
+            li read your contacts
+          li Location
+          ul
+            li precise location (GPS and network-based)
+          li Photos / Media / Files
+          ul
+            li  modify or delete the contents of your USB storage
+            li read the contents of your USB storage
+          li Storage
+          ul
+            li modify or delete the contents of your USB storage
+            li read the contents of your USB storage
+          li Camera
+          ul
+            li take pictures and videos
+          li Other
+          ul
+            li receive data from Internet
+            li run at startup
+            li use accounts on the device
+            li read Google service configuration
+            li prevent device from sleeping
+            li view network connections
+            li full network access
+    tr
+      td(colspan='3')
+        hr
+    tr
+      td
+      td(colspan='2')
+        p With Pinterest, you can discover, search and save great content from across the web. Use it for inspiration or practical ideas for everyday life.
+        ul
+          li Plan an adventure to Rome, a room you're redecorating or a party you're organising
+          li Get ideas for a new hair cut, recipes to try or even how to potty train a toddler
+          li Explore a hobby, from beer brewing and camping, to DIY and cake decorating
+
+        p Whatever your passion, find it on Pinterest.
+

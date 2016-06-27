@@ -1,0 +1,100 @@
+extends layout
+
+block content
+  h1= "Google Play Store"
+  p Welcome to Google Play Store
+
+  div.gb_store
+    img(src='https://www.gstatic.com/android/market_images/web/play_one_bar_logo_2x.png')
+
+  table
+    tr
+      td(width="120")
+        img(id='app1', src='https://lh3.googleusercontent.com/2s2O_Yb5oTfqSbJO168feEvl5YKruhDyBxL4Od-cB_t4tB4D9R9iWPr1st_xSSJsUA=w300', width="100")
+      td(width="300")
+        h1 LEGO Junior Quest
+        div.document-subtitles
+          div.primary  
+            span.name "LEGO System A/S"
+          div.category  
+            span.name "Adventure"
+          div.category  
+            span.name "Action & Adventure"         
+        h1 3.9
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/grey.png' width="20")
+        p 379,973 total
+        p  Installs: 10,000,000 - 50,000,000
+        p  Updated: 4 February 2016
+        p
+          a  Privacy permissions       
+      td(width="400")
+        h2 Privacy Sensitivity Score
+          img(src='/images/rate0.png')
+        p  The sum of the number of sensitive permissions associated with an app, that have the ability to access personl data and disclose them externally
+          ur
+            li Photos / Media / Files
+              ul
+                li modify or delete the contents of your USB storage
+                li read the contents of your USB storage
+            li Storage
+              ul
+                li modify or delete the contents of your USB storage
+                li read the contents of your USB storage
+            li Wi-Fi connection information
+              ul
+                li view Wi-Fi connections
+            li Other
+              ul
+                li Google Play licence check
+                li full network access
+                li prevent device from sleeping
+                li view network connections
+      td(width='400')
+        h2 Privacy Grade 
+          img(src='/images/A.png', width="60") 
+        p  The apps are graded using a privacy model that is based on crowdsourced surveys, which capture people’s expectations and comfort levels with various app behaviors.
+        p The sensitive permissions table below reflect the permissions that made users of the app uncomfortable.
+        table(style='border:1px solid black')
+          caption(style="background-color:#049cdb")
+              SENSITIVE PERMISSIONS USED BY THIS APP
+          thead(style="background-color:#049cdb")
+            tr
+              th  Permission
+              th  What
+              th  Why
+          tbody
+            tr
+              td  Full network access
+              td  Can access the internet
+              td  It appears this app uses this for their game engine
+            tr
+              td 
+              td Can access the internet
+              td It appears this app uses this data for mobile analytics
+            tr
+              td 
+              td Can access the internet
+              td It appears this app uses this data for targeted advertising
+                           
+        table(style='border:1px solid black')
+          caption(style="background-color:#049cdb")
+              THIRD PARTY LIBRARIES USED BY THIS APP
+          thead(style="background-color:#049cdb")
+            tr
+              th  Library
+              th  Usage
+          tbody
+            tr
+              td  Flurry
+              td  Mobile analytics libraries allow app developers to gather usage data about their app. It might gather data on how often an app user uses the app or in what ways is the app being used. Say for example usage data on a map app could be exemplified by a user using the map app twice a day in the morning and evening to find the quickest way to and from work with regards of the effects of traffic on certain roads.
+            tr
+              td  Chartboost
+              td Targeted ad libraries allows developers to monetize their app by allowing their app to serve advertisments to app users.
+            tr
+              td Unity3d
+              td Game engines libraries are libraries used to aid app developers in developing games.
+  

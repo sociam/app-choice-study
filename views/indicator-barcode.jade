@@ -1,0 +1,164 @@
+extends layout
+
+block content
+  h1= "Google Play Store"
+  p Welcome to Google Play Store
+
+  div.gb_store
+    
+  table
+    tr
+      td(width="120")
+        img(id='app1', src='/images/barcode.png', width="100")
+      td(width="300")
+        h1 ScanLife Barcode & QR Reader
+        div.document-subtitles
+          div.primary  
+            span.name "Scanbuy, Inc"
+          div.category  
+            span.name "Shopping"
+        h1 4.0
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/star.png' width="20")
+        img(src='/images/grey.png' width="20")
+        p 56,190 total
+        p  Installs: 10,000,000 - 50,000,000
+        p  Updated: 12 May 2016
+        p
+          a  Privacy permissions       
+      td(width="400")
+        h2 Privacy Sensitivity Score
+          img(src='/images/rate5.png')
+        p  The sum of the number of sensitive permissions associated with an app, that have the ability to access personl data and disclose them externally
+          ul
+          li Identity
+            ul
+              li find accounts on the device 
+                img(src='/images/one.png')
+          li Contacts
+            ul
+              li find accounts on the device
+                img(src='/images/one.png')
+          li Location
+            ul
+              li precise location (GPS and network-based)
+                img(src='/images/one.png')
+              li approximate location (network-based)
+                img(src='/images/one.png')
+          li Phone
+            ul
+              li read phone status and identity
+                img(src='/images/one.png')
+              li directly call phone numbers
+          li Photos / Media / Files
+            ul
+              li modify or delete the contents of your USB storage
+              li read the contents of your USB storage
+          li Storage
+            ul
+              li modify or delete the contents of your USB storage
+              li read the contents of your USB storage
+          li Camera
+            ul
+              li take pictures and videos
+                img(src='/images/one.png')
+          li Wi-Fi connection information
+            ul
+              li view Wi-Fi connections
+          li Device ID & call information
+            ul
+              li read phone status and identity
+                img(src='/images/one.png')
+          li Other
+            ul
+              li receive data from Internet
+              li full network access
+              li view network connections
+              li prevent device from sleeping
+              li connect and disconnect from Wi-Fi
+              li run at startup
+              li read Google service configuration
+              li control vibration
+              li pair with Bluetooth devices
+              li access Bluetooth settings
+      td(width='600')
+        h2 Privacy Grade 
+          img(src='/images/B.png', width="60") 
+        p  The apps are graded using a privacy model that is based on crowdsourced surveys, which capture people’s expectations and comfort levels with various app behaviors.
+        p The sensitive permissions table below reflect the permissions that made users of the app uncomfortable.
+        table(style='border:1px solid black')
+          caption(style="background-color:#049cdb")
+              SENSITIVE PERMISSIONS USED BY THIS APP
+          thead(style="background-color:#049cdb")
+            tr
+              th  Permission
+              th  What
+              th  Why
+          tbody
+            tr
+              td  Full network access
+              td  Can access the internet
+              td  It appears this app uses this data for internal use within the app's functionality
+            tr
+              td 
+              td Can access the internet
+              td It appears this app uses this data for mobile analytics
+            tr
+              td 
+              td Can access the internet
+              td It appears this app uses this data for social networking services
+            tr
+              td 
+              td Can access the internet
+              td It appears this app uses this data for targeted advertising
+            tr
+              td 
+              td Can access the internet
+              td It appears this app uses this data for utility purposes
+            tr
+              td Precise location (gps and network-based) 
+              td Can use user's precise location 
+              td It appears this app uses this data for internal use within the app's functionality
+            tr
+              td 
+              td Can use user's precise location 
+              td It appears this app uses this data for market/customer analysis
+            tr
+              td 
+              td Can use user's precise location 
+              td It appears this app uses this data for utility purposes
+            tr
+              td Read phone status and identity 
+              td Can read phone's current state information like in-phone call, phone signal, carrier, device ID, and phone number 
+              td It appears this app uses this data for internal use within the app's functionality
+            tr
+              td 
+              td Can read phone's current state information like in-phone call, phone signal, carrier, device ID, and phone number 
+              td It appears this app uses this data for market/customer analysis
+            tr
+              td 
+              td Can read phone's current state information like in-phone call, phone signal, carrier, device ID, and phone number 
+              td It appears this app uses this data for utility purposes
+            tr
+              td 
+              td Can read phone's current state information like in-phone call, phone signal, carrier, device ID, and phone number 
+              td It appears this app uses this data for internal use within the app's functionality
+          caption(style="background-color:#049cdb")
+              THIRD PARTY LIBRARIES USED BY THIS APP
+          thead(style="background-color:#049cdb")
+            tr
+              th  Library
+              th  Usage
+          tbody
+            tr
+              td  Flurry
+              td  Mobile analytics libraries allow app developers to gather usage data about their app. It might gather data on how often an app user uses the app or in what ways is the app being used. Say for example usage data on a map app could be exemplified by a user using the map app twice a day in the morning and evening to find the quickest way to and from work with regards of the effects of traffic on certain roads.
+            tr
+              td  Chartboost
+              td Targeted ad libraries allows developers to monetize their app by allowing their app to serve advertisments to app users.
+            tr
+              td Unity3d
+              td Game engines libraries are libraries used to aid app developers in developing games.
+  

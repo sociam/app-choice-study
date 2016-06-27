@@ -12,7 +12,7 @@ router.get('/wallet-store', function(req, res) {
     res.render('store-wallet', { title: 'Google Play Store!' });
 });
 
-/* GET Hello World page. */
+/* Evaluate one app. */
 router.get('/transport-store', function(req, res) {
     res.render('store-transport', { title: 'Google Play Store!' });
 });
@@ -28,8 +28,33 @@ router.get('/barcode-store', function(req, res) {
 });
 
 /* Evaluate one app. */
-router.get('/friends-store', function(req, res) {
-    res.render('store-friends', { title: 'Google Play Store!' });
+router.get('/friends-indicators', function(req, res) {
+    res.render('indicator-friends', { title: 'Google Play Store!' });
+});
+
+/* Evaluate one app. */
+router.get('/wallet-indicators', function(req, res) {
+    res.render('indicator-wallet', { title: 'Google Play Store!' });
+});
+
+/* Evaluate one app. */
+router.get('/transport-indicators', function(req, res) {
+    res.render('indicator-transport', { title: 'Google Play Store!' });
+});
+
+/* Evaluate one app. */
+router.get('/weight-indicators', function(req, res) {
+    res.render('indicator-weight', { title: 'Google Play Store!' });
+});
+
+/* Evaluate one app. */
+router.get('/barcode-indicators', function(req, res) {
+    res.render('indicator-barcode', { title: 'Google Play Store!' });
+});
+
+/* Evaluate one app. */
+router.get('/friends-indicators', function(req, res) {
+    res.render('indicator-friends', { title: 'Google Play Store!' });
 });
 
 /* Compare two apps. */
